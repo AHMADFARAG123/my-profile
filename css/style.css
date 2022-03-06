@@ -1,0 +1,467 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/* line-height: 1.5; */
+}
+/* utility clases */
+.tm {
+	margin-top: 20px;
+}
+.l-heading {
+	/*minuts 31:32*/
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	/*color: #fff;*/
+}
+
+.bg {
+	background-color: #87b5e0;
+	color: #fff;
+}
+header {
+	/* border: 2px solid rgb(243, 15, 15); */
+	margin-bottom: 5px;
+	border-radius: 70px;
+	/* border-radius: 0 0 70px 70px; */
+	/* position: fixed;
+	right: 0;
+	left: 0; */
+}
+header h1 {
+	margin-bottom: 30px;
+}
+
+.parent {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 10px;
+}
+
+.parent li a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	/* border: 2px solid red; */
+	margin-top: 6px;
+}
+.parent li a:hover {
+	border-bottom: 2px solid red;
+	font-size: 20px;
+}
+.mode {
+	border: 2px solid #fff;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+li {
+	list-style-type: none;
+	font-size: 18px;
+}
+h1 {
+	/* border: 7px solid royalblue; */
+	text-align: center;
+	padding: 10px 0;
+	width: 40%;
+	margin: auto;
+	/* margin-left: auto;*/
+	/*margin-right: auto; */
+	background-color: #43593d;
+	color: #fff;
+	border-radius: 13px;
+}
+
+.right-section img {
+	width: 250px;
+	height: 250px;
+	/* display: block; */
+}
+
+#sections {
+	/* border: 2px solid rgb(243, 15, 15); */
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 25px #3d4a59;
+	border-radius: 10px;
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 45px 0;
+	/* border-top: 6px solid #3d4a59; */
+	/* border-bottom: 6px solid #3d4a59; */
+}
+.right-section,
+.left-section {
+	/* border: 7px solid rgb(200, 231, 19); */
+	width: 49%;
+	text-align: center;
+	margin-top: 60px;
+}
+.left-section h3 {
+	font-size: 26px;
+	margin: 40px 0;
+	padding-bottom: 10px;
+}
+.left-section p {
+	font-size: 20px;
+	margin: 25px 0;
+}
+.facebook,
+.youtube,
+.githup {
+	background-color: royalblue;
+	color: #fff;
+	/*display: inline-block;*/
+	margin: 10px;
+	padding: 8px 18px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+.youtube {
+	background-color: rgb(247, 84, 84);
+	/* display: inline-block;
+  width: 75px; */
+}
+.githup {
+	background-color: rgb(59, 49, 49);
+}
+.my-img {
+	border-radius: 50%;
+	width: 200px;
+	border-top: 2px solid #e52e71;
+	border-left: 2px solid #ff8a00;
+	border-right: 2px solid #ff8a00;
+	border-bottom: 2px solid #e52e71;
+}
+h3 {
+	font-size: 29px;
+	font-weight: 900;
+	font-family: 'Sacramento', cursive;
+	margin-top: 10px;
+}
+/*section phone*/
+.newest-phones {
+	/* 40:45 minuts*/
+	padding-top: 5rem;
+}
+.newest-phones .phones-section {
+	max-width: 1366px;
+	margin: 0 auto;
+	padding: 0 7rem;
+	display: flex;
+	flex-direction: column;
+}
+.phones-section h4 {
+	color: #6e0aef;
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+}
+.phones-section .phones {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; /* grid-template-columns: 1fr 1fr 20px;*/
+	justify-content: flex-start;
+}
+.phones .phone {
+	margin: 2rem 0;
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.phone img {
+	margin-bottom: 1rem;
+}
+
+.phone img:hover {
+	/* 44:00 minuts*/
+	scale: 1.1;
+	/*cursor: pointer;*/
+}
+.phone h3 {
+	font-size: 1.6rem;
+	/* background-color: red;*/
+}
+.phones-section button {
+	width: 15rem;
+	margin-bottom: 1rem;
+	/* background-color: red;*/
+	align-self: center;
+}
+.phones-section h4 {
+	text-align: center;
+}
+.phones-section h3 {
+	font-family: cursive;
+	font-size: 1rem;
+}
+.flex {
+	display: flex;
+	width: 80%;
+	margin: auto;
+}
+.all {
+	width: 600px;
+	height: 400px;
+	margin: 50px auto;
+	position: relative;
+	box-shadow: 0px 5px 30px 0 rgba(197, 26, 26, 0.50);
+	border-top: 6px solid #3d4a59;
+	opacity: 1; /*التحكم فى درجة شفافيه  الخط .9*/
+	border-radius: 10px;
+
+	/* background-color: blueviolet; */
+	/* border-bottom: 6px solid #3d4a59; */
+	/* box-shadow: 5px 5px 25px #3d4a59; */
+
+	/* border-top: 2px solid #3d4a59; */
+}
+
+/* ////////// */
+/* section 3 ocordion */
+.container {
+	/* border: 2px solid rgb(243, 15, 15); */
+	/* margin-bottom: 5px; */
+	box-shadow: 5px 5px 25px #3d4a59;
+	border-radius: 10px;
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 45px 0;
+	/* border-top: 6px solid #3d4a59; */
+	/* border-bottom: 6px solid #3d4a59; */
+}
+.btnn {
+	width: 100%;
+	/*border: 0;*/
+	background: #eee;
+	font-size: 2rem;
+	padding: 1rem;
+	text-align: left;
+	cursor: pointer;
+	/*margin-bottom: 1rem;*/
+	outline: 0;
+}
+#nn {
+	border: 0;
+}
+.btnn:hover {
+	background: #ccc;
+}
+.btnn:after {
+	content: "+"; /*content: "\002B"; */
+	float: right;
+	font-weight: bold;
+	color: #777;
+}
+.active:after {
+	content: "-"; /*content: "\002B"; */
+	/*font-weight: bold;
+    font-size: 1rem;*/
+}
+
+.para {
+	background-color: rgb(185, 196, 196);
+	padding: 0 5rem;
+	/* display: none;*/
+	max-height: 0;
+	transition: 0.3s;
+	/* max-height: 1rem;*/
+	overflow: hidden;
+}
+
+/*    <!-- <section phone -->*/
+
+/*  ////////////////////// */
+
+/* <!-- 4 -section ocordion by height --> */
+
+#h4-styl {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+.alldiv {
+	width: 97%;
+	/* background-color: rgb(143, 176, 238); */
+	margin: 1rem auto;
+	height: 60vh;
+	border-top: 5px solid #3d4a59;
+	border-bottom: 5px solid #3d4a59;
+	border-right: 5px solid #d6cfb6;
+	border-left: 5px solid #d6cfb6;
+	border-radius: 10px;
+}
+
+.alldiv .btnall {
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px;
+	background-color: #eee;
+}
+.btnall:hover {
+	background-color: #ccc;
+}
+.alldiv .span {
+	float: right;
+}
+.alldiv .desk {
+	/* margin: 20px; */
+	height: 0;
+	overflow: hidden;
+	transition: all 0.5s linear;
+}
+.desk p {
+	line-height: 29px;
+	font-size: 20px;
+	padding: 10px; /*padding: 50px*/
+}
+
+/* <!-- /////////////////////// --> */
+
+/* section slide show */
+.divs {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 1s linear;
+	background-color: rgb(233, 193, 157);
+}
+.all img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/* opacity: 0; */
+	transition: all 1s linear;
+	border-radius: 50px;
+}
+.active {
+	opacity: 1 !important;
+	transition: all 1s linear;
+}
+#buy a {
+	text-align: center;
+	width: 110px;
+	padding-left: 50%;
+}
+.mybutun {
+	margin: 10px auto;
+	border: 1px solid #700;
+	padding: 15px;
+	color: #fff;
+	background-color: #700;
+	border-radius: 5px;
+	transition: all 0.5s;
+	font-size: 15px;
+	display: block;
+	margin: auto;
+}
+.mybutun:hover {
+	margin: 10px auto;
+	border: 1px solid #700;
+	padding: 15px;
+	color: #700;
+	background-color: rgb(250, 223, 223);
+	border-radius: 5px;
+	transition: all 0.5s;
+	font-size: 15px;
+}
+.paragrafNbza {
+	/* margin: 20px; */
+	height: 0;
+	overflow: hidden;
+	transition: all 0.5s linear;
+}
+.paragrafNbza p {
+	
+	line-height: 29px;
+	font-size: 20px;
+	padding: 10px; /*padding: 50px*/
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	
+}
+
+#secWho div {
+	width: 130px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+footer {
+	/* border: 2px solid rgb(243, 15, 15); */
+	text-align: center;
+}
+.design {
+	padding: 15px;
+	margin-top: 10px;
+	text-align: center;
+	border-top-right-radius: 35px;
+	border-top-left-radius: 35px;
+}
+.follow {
+	/* box-shadow: 0px 5px 30px 0 rgb(0 0 0 / 25%); */
+	border-radius: 10px;
+	padding: 16px 0;
+
+	margin: 0 auto 10px;
+	border-top: 6px solid #3d4a59;
+	opacity: 0.9; /*التحكم فى درجة شفافيه  الخط .9*/
+	box-shadow: 0px 5px 30px 0 rgba(197, 26, 26, 0.50);
+	width: 97%;
+}
+.follow a {
+	border: 1px solid #3d4a59;
+	border-radius: 4px;
+	padding: 4px 10px;
+	/* display: inline-block;*/
+	text-decoration: none;
+}
+.follow a:hover {
+	padding: 5px 12px;
+	background-color: rgb(16, 73, 243);
+	color: #fff;
+}
+.logo {
+	padding: 50px;
+}
+.log {
+	/* background-color: #e52e71; */
+	padding-right: 100px;
+}
+
+/* 
+.btn:focus{
+	background-color: rgb(89, 0, 255);
+	
+	
+} */
+
+.btn {
+	display: block;
+	width: 100px;
+	color: #000;
+}
+.bc {
+	background-color: rgb(21, 241, 39) !important;
+}
+.mb {
+	margin-bottom: 200px;
+}
+/* .mydiv{
+	width: 97%;
+	margin: 0 auto 15px ;
+	background-color: #ff8a00;
+	height: 75vh;
+	border-radius: 10px;
+
+} */
